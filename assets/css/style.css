@@ -1,16 +1,34 @@
+/* ----------------------------------------colors-- */
 body {
-    background-color: #727272;
+    background-color: #CDEDFD;
 }
+
+.bg-drk {
+    background-color: #0A122A;
+}
+
+/* ----------------------------------------------size and shape--- */
 
 .navbar {
     width: 100%;
 }
 
-.pictures {
-    padding: 5%;
-    background-color: #3f3f5f;
+.five_photos {
+    height: 200px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 5%;
+
 }
 
-.gallery {
-    margin: 4% 0 4% 0;
+.d-inl-bl {
+    display: inline-block;
+}
+
+.minipicture {
+    height: 200px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
+    
 }
