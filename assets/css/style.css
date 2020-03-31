@@ -6,3 +6,11 @@ body {
     width: 100%;
 }
 
+.pictures {
+    padding: 5%;
+    background-color: #3f3f5f;
+}
+
+.gallery {
+    margin: 4% 0 4% 0;
+}
