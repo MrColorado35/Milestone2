@@ -14,9 +14,9 @@ body {
      color: #0A122A;
 }
 
-.the_weather{
-    color: #B8336A;
-}
+/* .the_weather{
+    color: #666666;
+} */
 
 .bg-map {
     background-color: #B6DCFE;
@@ -39,18 +39,26 @@ body {
 .minipicture {
     height: 200px;
     width: auto;
-    /* max-width: 100%; */
     object-fit: contain;
     
 }
 
 .picture-large{
+    max-height: 100%;
     object-fit: contain;
 }
+
+/* #moko_down {
+    max-height: 80%;
+    width: auto;
+    object-position: center;
+    object-fit:contain;
+} */
 
 .carousel-box {
     object-position: center;
     padding: 2% 5%;
+    height: 80%;
 }
 
 .not-high {
@@ -64,8 +72,9 @@ body {
     min-height: 50px;
 }
 
-.social {
+footer {
     min-height: 120px;
+    padding: 2%;
 }
 
 /* ------------------------------------------------- style -- */
@@ -91,6 +100,24 @@ body {
 .bg-footer {
     background-color: #B8336A;
     color: #fafafa;
+}
+
+.social i {
+    font-size: 24px;
+    color: #fafafa;
+    text-align: center;
+    padding: 15px;
+
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.social i:hover {
+    
+    color: #0A122A;
+    font-size: 30px;
 }
 
 
