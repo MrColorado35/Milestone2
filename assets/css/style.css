@@ -35,6 +35,12 @@ body {
     padding-bottom: 2%;
 }
 
+.five_photos_sl {
+    height: 200px;
+    object-position: center;
+    padding: 2% 1%;
+}
+
 
 .minipicture {
     height: 200px;
@@ -75,6 +81,10 @@ body {
 footer {
     min-height: 120px;
     padding: 2%;
+}
+
+.weather {
+    padding-top: 2%;
 }
 
 /* ------------------------------------------------- style -- */
