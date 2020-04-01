@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+
 /* ----------------------------------------colors-- */
 body {
     background-color: #CDEDFD;
+    font-family: 'Playfair Display', serif;
 }
 
 .bg-drk {
@@ -53,7 +56,9 @@ body {
     max-height: 60%;
     min-height: 50px;
 }
-/* ------------------------------------------------- other-- */
+
+
+/* ------------------------------------------------- style -- */
 
 .no-margin {
     margin: 0;
@@ -63,6 +68,10 @@ body {
     display: inline-block;
 }
 
-.the_weather {
+.center {
     text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
