@@ -22,6 +22,19 @@ body {
     background-color: #B6DCFE;
 }
 
+.color-red {
+    color:  #B8336A;
+}
+
+.bg-footer {
+    background-color: #B8336A;
+    color: #fafafa;
+}
+
+.form-bg {
+    background-color: #7CC6FE;
+    opacity: 0.8;
+}
 
 /* ----------------------------------------------size and shape--- */
 
@@ -71,6 +84,9 @@ body {
     min-height: 50px;
     max-height: 10%;
 }
+.not-wide{
+    max-width: 60%;
+}
 
 .mapNtext {
     width: 100%;
@@ -84,7 +100,17 @@ footer {
 }
 
 .weather {
-    padding-top: 2%;
+    padding: 2% 0;
+}
+
+.contact-form {
+    max-width: 90%;
+    height: auto;
+    padding: 5%;
+}
+
+form {
+    margin: 5% 5% 5% 30%;
 }
 
 /* ------------------------------------------------- style -- */
@@ -101,16 +127,17 @@ footer {
     text-align: center;
 }
 
+.obj-center {
+    object-position: center;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
 
+
 /* ------------------------------------------------- footer -- */
 
-.bg-footer {
-    background-color: #B8336A;
-    color: #fafafa;
-}
 
 .social i {
     font-size: 24px;
