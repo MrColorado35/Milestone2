@@ -4,8 +4,14 @@ body {
 }
 
 .bg-drk {
-    background-color: #0A122A;
+    background-color: #7CC6FE;
+    color: #0A122A;
 }
+
+.bg-map {
+    background-color: #B6DCFE;
+}
+
 
 /* ----------------------------------------------size and shape--- */
 
@@ -15,17 +21,10 @@ body {
 
 .five_photos {
     height: 200px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 5%;
-}
-.no-margin {
-    margin: 0;
+    object-position: center;
+    padding-bottom: 2%;
 }
 
-.d-inl-bl {
-    display: inline-block;
-}
 
 .minipicture {
     height: 200px;
@@ -41,6 +40,29 @@ body {
 
 .carousel-box {
     object-position: center;
-    padding: 0 5%;
+    padding: 2% 5%;
+}
+
+.not-high {
+    min-height: 50px;
+    max-height: 10%;
+}
+
+.mapNtext {
+    width: 100%;
+    max-height: 60%;
+    min-height: 50px;
 }
 /* ------------------------------------------------- other-- */
+
+.no-margin {
+    margin: 0;
+}
+
+.d-inl-bl {
+    display: inline-block;
+}
+
+.the_weather {
+    text-align: center;
+}
