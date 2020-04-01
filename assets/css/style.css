@@ -8,7 +8,14 @@ body {
 
 .bg-drk {
     background-color: #7CC6FE;
-    color: #0A122A;
+}
+
+.color-drk{
+     color: #0A122A;
+}
+
+.the_weather{
+    color: #B8336A;
 }
 
 .bg-map {
@@ -57,6 +64,9 @@ body {
     min-height: 50px;
 }
 
+.social {
+    min-height: 120px;
+}
 
 /* ------------------------------------------------- style -- */
 
@@ -64,7 +74,7 @@ body {
     margin: 0;
 }
 
-.d-inl-bl {
+.inline-block {
     display: inline-block;
 }
 
@@ -75,3 +85,12 @@ body {
 .uppercase {
     text-transform: uppercase;
 }
+
+/* ------------------------------------------------- footer -- */
+
+.bg-footer {
+    background-color: #B8336A;
+    color: #fafafa;
+}
+
+
