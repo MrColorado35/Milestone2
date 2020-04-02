@@ -39,44 +39,48 @@
             <h2>5 miniatures</h2>
   <!--------------------- All the photos that has been used on this page have been taken by myself or my partner ----->
          </div>
-         <div class="container_fluid no_margin">
+         <div class="container_fluid ">
             <div class="row ">
-               <div class="">
-                  <img src="assets/images/koscielec_winter_bad.jpg" class="rounded minipicture d-inl-bl" alt="Five Lakes Valley East">
+               <div class="col-sm-6 col-md-4 col-lg-2 no_margin" id="winter">
+                  <img src="assets/images/koscielec_winter_bad.jpg" class=" rounded minipicture d-inl-bl" alt="Five Lakes Valley East">
+               </div>               
+               <div class="col-sm-6 col-md-4 col-lg-2 no_margin" id="liliowe">
+                  <img src="assets/images/pano_liliowe.jpg"  class="rounded minipicture  d-inl-bl" alt="Five Lakes Valley North">
                </div>
-               <div class="">
-                  <img src="assets/images/poland_ada_bnw.jpg" class="rounded minipicture d-inl-bl" alt="Five Lakes Valley Hiker">
-               </div>
-               <div class="">
-                  <img src="assets/images/pano_liliowe.jpg" height="200" class="rounded minipicture  d-inl-bl" alt="Five Lakes Valley North">
-               </div>
-               <div class="">
+               <div class="col-sm-6 col-md-4 col-lg-2 no_margin " id="koscielec">
                   <img src="assets/images/poland_koscielec.jpg" class="rounded minipicture d-inl-bl" alt="Adrianna Black and White">
                </div>
-               <div class="">
+               <div class="col-sm-6 col-md-4 col-lg-2 no_margin">
                   <img src="assets/images/poland_winter_bad.jpg" class="rounded minipicture mx-auto d-inl-bl" alt="Winter picture, bad quality">
                </div>
-               <!-- <div class="">
+               <div class="col-sm-6 col-md-4 col-lg-2 no_margin " id="alone">
                   <img src="assets/images/dsp5_alone_bad.jpg" class="rounded minipicture d-inl-bl" alt="Five Lakes Valley Hiker">
-                  </div> -->
+                </div> 
+                <div class="col-sm-4 col-md-2 col-lg-1 no_margin hidden" id="ada">
+                  <img src="assets/images/poland_ada_bnw.jpg" class="rounded minipicture d-inl-bl" alt="Five Lakes Valley Hiker">
+               </div>
             </div>
          </div>
       </section>
-      <section class="weather bg-drk not-high">
-         <div class="container-fluid the_weather color-drk center">
-            <h2>Here goes the weather</h2>
+      <section class="container-fluid  weather bg-drk ">
+         <div class="row justify-content-md-center color-drk " id="the_weather">
+            <!-- <div class="col-sm-4"></div> -->
+            <div class="col-sm-6 center">
+                <h2>Here goes the weather</h2>
+            </div>
+            <!-- <div class="col-sm-4"></div> -->
          </div>
       </section>
-      <section class="carousel-box">
-         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <section class="container-fluid carousel-box">
+         <div id="carouselPoland" class="row carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-               <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-               <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-               <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-               <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-               <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
-               <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+               <li data-target="#carouselPoland" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselPoland" data-slide-to="1"></li>
+               <li data-target="#carouselPoland" data-slide-to="2"></li>
+               <li data-target="#carouselPoland" data-slide-to="3"></li>
+               <li data-target="#carouselPoland" data-slide-to="4"></li>
+               <li data-target="#carouselPoland" data-slide-to="5"></li>
+               <li data-target="#carouselPoland" data-slide-to="6"></li>
             </ol>
             <div class="carousel-inner">
                <div class="carousel-item picture-large active " data-interval="10000">
@@ -131,11 +135,11 @@
                 </div>
                
                <div>
-                  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                  <a class="carousel-control-prev" href="#carouselPoland" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                   </a>
-                  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                  <a class="carousel-control-next" href="#carouselPoland" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                   </a>
@@ -145,13 +149,13 @@
       </section>
       <section class="container-fluid mapNtext bg-map">
      
-            <div class="row map">
-                 <div class="col wide"> 
+            <div class="row ">
+                 <div class="col-sm-6 wide "> 
                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111292.56172326779!2d19.975590255841198!3d49.22947995219166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDEzJzQzLjUiTiAyMMKwMDEnMjEuNiJF!5e0!3m2!1sen!2suk!4v1585775408116!5m2!1sen!2suk"
                              id="map_poland" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
             
-                <div class="col description">
+                <div class="com-sm-6 description">
                        <h2 class="direction">How to get there?</h2>
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                        Dolores ullam mollitia ipsum, saepe provident distinctio natus obcaecati.</p>
@@ -165,7 +169,7 @@
       <!-- Idea for the footer taken from the courde materials, the mini project called "Rosie Odenkirk" -->
       <footer class="container-fluid bg-footer">
             <div class="row">
-                <div class="col-sm-6 center">
+                <div class="col-12 col-sm-6 center">
                     <h5 class="uppercase" >About</h5>
                     <p class="inline-block">
                         We are just the couple of the mountains lovers, <br> trying to show to english-speaking world <br>
@@ -173,7 +177,7 @@
                     </p>
 
                 </div>
-                <div class="col-sm-6 center">
+                <div class="col-12 col-sm-6 center">
                     <h5 class="uppercase">Our Social Media</h5>
                     <ul class="list-inline">
                         <li class="list-inline-item social">

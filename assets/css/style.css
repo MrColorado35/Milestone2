@@ -39,38 +39,6 @@ body {
     width: 100%;
 }
 
-.five_photos {
-    height: 200px;
-    object-position: center;
-    padding-bottom: 2%;
-}
-
-.five_photos_sl {
-    height: 200px;
-    object-position: center;
-    padding: 2% 1%;
-}
-
-
-.minipicture {
-    height: 200px;
-    width: auto;
-    object-fit: contain;
-    
-}
-
-.picture-large{
-    max-height: 100%;
-    object-fit: contain;
-}
-
-/* #moko_down {
-    max-height: 80%;
-    width: auto;
-    object-position: center;
-    object-fit:contain;
-} */
-
 .carousel-box {
     object-position: center;
     padding: 2% 5%;
@@ -95,9 +63,6 @@ footer {
     padding: 2%;
 }
 
-.weather {
-    padding: 2% 0;
-}
 
 .contact-form {
     max-width: 90%;
@@ -109,10 +74,17 @@ form {
     margin: 5% 5% 5% 30%;
 }
 
+
+
 /* ------------------------------------------------- style -- */
 
 .no-margin {
     margin: 0;
+    padding: 0;
+}
+
+.hidden{
+    display: none;
 }
 
 .inline-block {
@@ -131,6 +103,57 @@ form {
     text-transform: uppercase;
 }
 
+.left {
+    margin:0%;
+    padding-left: 15px;
+}
+
+.right {
+    margin: 0%;
+    padding-right: 15px;
+}
+/* ----------------------------------------------images --- */
+.five_photos {
+    height: 200px;
+    object-position: center;
+    padding-bottom: 2%;
+}
+
+.five_photos_sl {
+    height: 200px;
+    object-position: center;
+    padding: 2% 1%;
+}
+
+
+.minipicture {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    
+}
+
+.picture-large{
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* #moko_down {
+    max-height: 80%;
+    width: auto;
+    object-position: center;
+    object-fit:contain;
+} */
+
+/* ------------------------------------------------- Weather-- */
+
+.weather {
+    display: block;
+    padding: 2% 0;
+}
+
+
+
 /* ------------------------------------------------- Map-- */
 
 .mapNtext {
@@ -138,11 +161,11 @@ form {
     min-height: 450px;
 }
 
-.map {
+/* .map {
     width: 100%;
     height: 100%;
     float: left;
-}
+} */
 
 #map_poland {
     border: none;
@@ -152,6 +175,10 @@ form {
 
 .description {
     text-align: justify;
+}
+
+.directions {
+    text-align: center;
 }
 
 
