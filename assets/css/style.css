@@ -112,6 +112,14 @@ form {
     margin: 0%;
     padding-right: 15px;
 }
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+}
 /* ----------------------------------------------images --- */
 .five_photos {
     height: 200px;
@@ -167,7 +175,7 @@ form {
     float: left;
 } */
 
-#map_poland {
+.map {
     border: none;
     width: 100%;
     height: 450px;
