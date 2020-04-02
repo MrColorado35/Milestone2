@@ -113,24 +113,26 @@ form {
     padding-right: 15px;
 }
 
-.row-table {
+/* .row-table {
     display: table;
 }
 
 .section-column {
     display: table-cell;
-}
+} */
 /* ----------------------------------------------images --- */
 .five_photos {
     height: 200px;
     object-position: center;
     padding-bottom: 2%;
+    overflow: hidden;
 }
 
 .five_photos_sl {
     height: 200px;
     object-position: center;
     padding: 2% 1%;
+    overflow: hidden;
 }
 
 
