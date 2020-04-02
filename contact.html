@@ -34,39 +34,43 @@
             </ul>
          </div>
       </nav>
-      <section class="contact-form container-fluid">
-            <div class="card bg-dark text-white">
-                <img src="assets/images/dsp5_west.png" class="card-img" alt="5 Lakes Valley">
-                <div class="card-img-overlay center">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Would you like to contact us, to point out, 
-                    that one of the "Slovakian" pictures has actually been taken in Poland? <br>
-                    <br>Or maybe you wold like to share some of your pictures?</p>
-                    <p class="card-text">Just fill in the form and we'll be in touch as soon as possible</p>
-                        <form class="obj-center">
-                            <div class="form-group not-wide ">
-                                <label for="exampleFormControlInput1">Email address</label>
-                                <input type="email" class="form-control form-bg " id="exampleFormControlInput1" 
-                                    placeholder="Your email" required>
-                            </div>
-                            <div class="form-group not-wide obj-center">
-                                <label for="exampleFormControlTextarea1">Your message</label>
-                                <textarea class="form-control form-bg" id="exampleFormControlTextarea1" 
-                                        placeholder="Your message" rows="5" required></textarea>
-                            </div>                            
-                            <div class="form-group not-wide obj-center">
-                                <label for="sendPicture" class="color-drk form-bg"><strong>Share your picture</strong></label>
-                                <input type="file" class="form-control-file form-bg" id="sendPicture">
-                            </div>
-                            <div class="obj-center">
-                                <input class="btn btn-primary center" type="submit" value="Submit">
-                            </div>
-                        </form>
-
-                </div>
-            </div>      
+<!------------ Contact form taken from my First Milestone Project, as the one from bootstrap did not match my needs -->
+     <section class="contact-form container-fluid bg-map">
+        <h2 class="row">Would you like to contact us?</h2>
+         <div class="row" id="contact-form">
+            <div class="col-sm-12">
+               <p>Simply write your message here:</p> 
+            </div>
+            <div class="col-sm-12 contact-form-element">
+              
+               <form onsubmit="" method="post">
+                  <div class="form-group">
+                     <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                  </div>
+                  <div class="form-group">   
+                     <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
+                  </div>
+                  <div class="form-group">   
+                     <textarea rows="5"  name="message" id="message" class="form-control" 
+                        placeholder="Your Message" required></textarea>
+                  </div>
+                  <div class="form-group">
+                     <div class="form-row text-center">
+                        <div class="col">
+                           <button type="submit" class="btn bg-drk btn-secondary" >Submit   
+                           <i class="far fa-grin-alt"></i>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
       </section>
-       <!-- Idea for the footer taken from the courde materials, the mini project called "Rosie Odenkirk" -->
+
+
+     
+<!---------- Idea for the footer taken from the course materials, the mini project called "Rosie Odenkirk" -->
       <footer class="container-fluid bg-footer">
             <div class="row">
                 <div class="col-sm-6 center">
@@ -92,8 +96,8 @@
                                 <span class="sr-only">Instagram</span>
                             </a>                        
                         </li>
-                         <li class="list-inline-item social">
-                            <a target="_blank" href="#">
+                         <li class="list-inline-item ">
+                            <a target="_blank" class="social" href="#">
                                 <i class="fab fa-pinterest-square" aria-hidden="true"></i>
                                 <span class="sr-only">Pinterest</span>
                             </a>                        

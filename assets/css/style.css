@@ -15,6 +15,7 @@ body {
 }
 
 
+
 .bg-map {
     background-color: #B6DCFE;
 }
@@ -70,9 +71,9 @@ footer {
     padding: 5%;
 }
 
-form {
+/* form {
     margin: 5% 5% 5% 30%;
-}
+} */
 
 
 
@@ -111,6 +112,10 @@ form {
 .right {
     margin: 0%;
     padding-right: 15px;
+}
+
+.overflow {
+    overflow: hidden;
 }
 
 /* .row-table {
@@ -191,11 +196,27 @@ form {
     text-align: center;
 }
 
+/* ------------------------------------------------- contact us, -- */
 
+
+.contact-form {
+    min-height: 120px;
+    width: 100%;
+    padding: 3% 20% 5% 20%;
+    position: relative;
+    display: block;
+}
+
+.btn {
+    font-size: 26px;
+    background-color:  #0A122A;
+}
 
 /* ------------------------------------------------- Footer -- */
 
-
+i {
+    text-decoration: none;
+}
 .social i {
     font-size: 24px;
     color: #fafafa;
