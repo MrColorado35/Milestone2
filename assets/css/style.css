@@ -118,13 +118,9 @@ footer {
     overflow: hidden;
 }
 
-/* .row-table {
-    display: table;
+.contain {
+    object-fit: contain;
 }
-
-.section-column {
-    display: table-cell;
-} */
 /* ----------------------------------------------images --- */
 .five_photos {
     height: 200px;
@@ -210,6 +206,11 @@ footer {
 .btn {
     font-size: 26px;
     background-color:  #0A122A;
+}
+
+.bg-contact {
+    background-image: url("/images/dsp5_west.png");
+    opacity: 0.5;
 }
 
 /* ------------------------------------------------- Footer -- */
