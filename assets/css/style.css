@@ -106,12 +106,12 @@ footer {
 
 .left {
     margin:0%;
-    padding-left: 15px;
+    padding-left: 4%;
 }
 
 .right {
     margin: 0%;
-    padding-right: 15px;
+    padding-right: 4%;
 }
 
 .overflow {
@@ -133,16 +133,16 @@ footer {
 .five_photos {
     height: 200px;
     object-position: center;
-    padding-bottom: 2%;
+    padding: 2% 1%;
     overflow: hidden;
 }
-
+/* 
 .five_photos_sl {
     height: 200px;
     object-position: center;
     padding: 2% 1%;
     overflow: hidden;
-}
+} */
 
 
 
