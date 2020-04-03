@@ -35,7 +35,9 @@ We continually tweak and adjust this template to help give you the best experien
 Happy coding!
 
 
-#Milestone Project 2, Tatry Mountains by Stan Kaczorkiewicz
+# Milestone Project 2, Tatry Mountains by Stan Kaczorkiewicz
+
+## chljhgsdfleaf
 
 This is my second milestone project I'm doing as a part of Front-end developer course with The Code Institute.
 The main purpose of this project is to practice my JavaScript coding, among with the jQuery and other tools,
