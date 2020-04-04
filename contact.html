@@ -13,6 +13,16 @@
 
       <link rel="stylesheet" href="assets/css/style.css">
       <title>Tatry Mountains</title>
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init("user_RaypSYtEQCZWzWdfx6WqL");
+            emailjs.send("gmail", "aikido", {name:(this.name), notes:(this.message)},"user_RaypSYtEQCZWzWdfx6WqL");
+        })();
+      </script>
+
    </head>
    <body>
       <nav class="navbar navbar-expand-lg navbar-light color-drk justify-content-end bg-drk">
