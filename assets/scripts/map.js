@@ -6,7 +6,7 @@
                                 lng: 20.008202
                             }
         });
-                var labels = ["Roztoka","Koscielec","Morskie Oko","Little Koscielec","Mnich", "Moko Down", "5 Lakes Valley", "Chata Teryho", "In front of Teryho", "Studena Valley", "Studena-Teryho", "Studena-Bottom", "Worm lake"];
+                var labels = ["Roztoka","Koscielec","Morskie Oko","Little Koscielec","Mnich", "Moko Down", "5 Lakes Valley", "Chata Teryho", "Nizne Pleso", "Studena Valley", "Studena-Teryho", "Studena-Bottom", "Worm lake"];
 
                 var locations = [
                     {lat: 49.234526, lng: 20.093493},

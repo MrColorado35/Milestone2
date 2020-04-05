@@ -14,7 +14,10 @@ body {
      color: #0A122A;
 }
 
-
+.bg-picture{
+     background-color: #B6DCFE;
+     opacity: 0.5;
+}
 
 .bg-map {
     background-color: #B6DCFE;
