@@ -10,6 +10,15 @@ body {
     background-color: #7CC6FE;
 }
 
+.color-light {
+    color: white;
+}
+
+.bg-darker {
+    background-color:  #0A122A;
+    opacity: 0.8;
+}
+
 .color-drk{
      color: #0A122A;
 }

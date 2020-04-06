@@ -1,3 +1,4 @@
+// ---The idea for the contact form comes from our project "Rosie" on Front-End interactive development part of the course at Code Institute
 
 function sendMail(contactForm) {
     emailjs.send("gmail","aikido", {
@@ -11,7 +12,12 @@ function sendMail(contactForm) {
         },
         function(error) {
             alert("Error! sending failed!", error);
-        });
+        })
+        .then(
+            function redirect(){
+             location.replace("index.html")
+            });
+
     return false;  // To block from loading a new page
 }
 
