@@ -44,23 +44,23 @@
                <!-- <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 col-xl-1 z-index-0 no_margin" id="liliowe">
                   <img src="assets/images/pano_liliowe.jpg"  class="rounded minipicture  d-inl-bl" alt="Five Lakes Valley North">
                </div> -->
-               <div class="col-xs-5 col-sm-4 col-md-3 col-xl-1  no_margin " id="koscielec">
+               <div class="col-xs-5 col-sm-3 col-lg-2 col-xl-1  no_margin " >
                   <img src="assets/images/poland_koscielec.jpg" class="rounded minipicture d-inl-bl" alt="Adrianna Black and White">
                </div>
-               <div class="col-xs-5 col-sm-4 col-md-3 col-lg-2 col-xl-1 no_margin" id="poland_bad">
+               <div class="col-xs-5 col-sm-3 col-lg-2 col-xl-1 no_margin" >
                   <img src="assets/images/poland_winter_bad.jpg" class="rounded minipicture mx-auto d-inl-bl" alt="Winter picture, bad quality">
                </div>
-               <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1  no_margin " id="alone">
+               <div class="col-sm-3 col-lg-2 col-xl-1  no_margin " >
                   <img src="assets/images/dsp5_alone_bad.jpg" class="rounded minipicture d-inl-bl" alt="Five Lakes Valley Hiker">
                 </div> 
-                <div class="col-sm-6 col-md-3 col-lg-2 col-xl-1  no_margin" id="winter">
+                <div class="col-sm-3 col-lg-2 col-xl-1  no_margin" id="winter">
                   <img src="assets/images/koscielec_winter_bad.jpg" class=" rounded minipicture d-inl-bl" alt="Five Lakes Valley East">
                 </div> 
                 
-                <div class="col-md-3 col-lg-2 col-xl-1  no_margin " id="moko">
+                <div class="col-sm-3 col-lg-2 col-xl-1  no_margin " id="">
                   <img src="assets/images/moko_on_the_way_bad.jpg" class="rounded minipicture d-inl-bl" alt="Five Lakes Valley Hiker">
                </div>
-               <div class="col-sm-6 col-xl-1  no_margin " id="">
+               <div class="col-sm-6 col-lg-1 col-xl-1  no_margin " id="">
                   <img src="assets/images/poland_koscielec_down.jpg" class="rounded minipicture d-inl-bl" alt="Five Lakes Valley Hiker">
                </div>
                <div class="col-sm-6 col-xl-1  no_margin" id="">
@@ -112,14 +112,14 @@
             </ol>
             <div class="carousel-inner">
                <div class="carousel-item picture-large active " data-interval="10000">
-                  <img src="assets/images/poland_roztoka.jpg" class="d-block w-100" alt="Roztoka Valley on the morning">
+                  <img onclick="showMe" src="assets/images/poland_roztoka.jpg" id="roztoka" class="d-block w-100" alt="Roztoka Valley on the morning">
                   <div class="carousel-caption d-none d-md-block">
                      <h5>Roztoka Valley</h5>
                      <p>After spending a night in a shelter on the bottom of the Roztoka Valley, <br>
                          that's the view that you will wake up for.</p>
                   </div>
                </div>
-               <div class="carousel-item picture-large" data-interval="10000">
+               <div class="carousel-item picture-large" id="koscielec" data-interval="10000">
                   <img src="assets/images/poland_koscielec.jpg" class="d-block w-100" alt="Great Koscielec mountain, winter">
                   <div class="carousel-caption d-none d-md-block">
                      <h5>Koscielec, Valley of Worm</h5>
@@ -231,11 +231,21 @@
                 </div>
             </div>
       </footer>
+    
         <script src="assets/scripts/weather_pl.js"></script>
        <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3Rwrtldg4ECPsMPBruXLe1VPRZpJ89x0&callback=initMap">
         </script>
         <script src="assets/scripts/map.js"></script>
+            
+            <script>
+                function showMe(){
+     
+             document.getElementById("roztoka").onclick = function(){
+                    google.maps.Map(labels("Roztoka"));
+                }
+            }
+        </script> 
    </body>
 </html>
