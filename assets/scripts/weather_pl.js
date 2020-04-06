@@ -22,10 +22,23 @@ function getWeather(lon, lat, units){
             "x-rapidapi-key": "dffece06afmsheb06bed2195d2cbp197205jsn5a31dea67e6c"
         }
     }
-
-
-    $.ajax(settings).done(function (response) {
-	console.log(response);
-});
-
+ $.ajax(settings).done(function (response) {
+       
+        jsonData = JSON.parse(response);
+        jsonData.main.temp
+      
+        
+        console.log(response);
+    }).error(function(response){
+        console.log(response);
+    });
 }
+
+    function handleListener(btn){
+    getWeather(this.lat);
+
+        $( ".weather-api-btn" ).click(function() {
+        handleListener(b-button);
+        })
+
+    }

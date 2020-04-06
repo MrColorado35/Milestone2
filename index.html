@@ -91,7 +91,7 @@
              <h2 class="sr-only">Here goes the weather</h2>
             <div class="col-sm-6 center" id="the_weather">
                
-             <b-button block variant="primary" class="" id="zakopane">Click here to see the weather</b-button>
+             <b-button block variant="primary" class="weather-api-btn" id="zakopane">Click here to see the weather</b-button>
 
             </div>
            
@@ -234,20 +234,13 @@
             </div>
       </footer>
     
-        <script src="assets/scripts/weather_pl.js"></script>
+       
        <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3Rwrtldg4ECPsMPBruXLe1VPRZpJ89x0&callback=initMap">
         </script>
         <script src="assets/scripts/map.js"></script>
             
-            <script>
-                function showMe(){
-     
-             document.getElementById("roztoka").onclick = function(){
-                    google.maps.Map(labels("Roztoka"));
-                }
-            }
-        </script> 
+        <script src="assets/scripts/weather_pl.js"></script>
    </body>
 </html>
