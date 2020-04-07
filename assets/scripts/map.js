@@ -9,8 +9,11 @@
                 var labels = ["Roztoka","Koscielec","Morskie Oko","Little Koscielec","Mnich", "Moko Down", "5 Lakes Valley", "Chata Teryho", "Nizne Pleso", "Studena Valley", "Studena-Teryho", "Studena-Bottom", "Worm lake"];
 
                 var locations = [
+
                     {lat: 49.234526, lng: 20.093493},
+
                     {lat: 49.241814, lng: 20.003551},
+
                     {lat: 49.200591, lng: 20.066736},
                     {lat: 49.240522, lng: 20.009885},                    
                     {lat: 49.198767, lng: 20.064768},
