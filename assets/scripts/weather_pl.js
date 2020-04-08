@@ -25,7 +25,7 @@ function getWeather(lon, lat, units){
  $.ajax(settings).done(function (response) {
        
         jsonData = JSON.parse(response);
-        jsonData.main.temp =
+        jsonData.main.temp.innerHTML(
         { "main": {
                 "temp": 10,
                 "feels_like": 6.68,
@@ -52,7 +52,7 @@ function getWeather(lon, lat, units){
             "timezone": 7200,
             "id": 7531513,
             "name": "Zakopane",
-            "cod": 200}
+            "cod": 200})
             .toString()
       
         
@@ -62,9 +62,13 @@ function getWeather(lon, lat, units){
         console.log(response);
     });
 }
-document.getElementsByClassName('weather-api-btn').addEventListener('click', function(event){
+
+document.getElementsByClassName('weather-api-btn')
+onClick(function(event){
     handleListener(button);
-})
+});
+
+    var button = "div>b-button"
 
     function handleListener(button){
     getWeather(this.lat, this.lon, metric).innerHTML = `The weather in ${this.id} is: ${this.response}`;        

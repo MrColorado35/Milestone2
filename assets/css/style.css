@@ -102,6 +102,10 @@ footer {
     display: inline-block;
 }
 
+.no-border {
+    border: none;
+}
+
 .center {
     text-align: center;
 }

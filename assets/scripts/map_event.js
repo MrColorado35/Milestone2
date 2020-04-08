@@ -1,4 +1,6 @@
 
+        console.log("why don't you want to do the job?");
+
                 //  var showMe = (function() {
                 //            marker.addListener('click', function() {
                 //           function showMe(){

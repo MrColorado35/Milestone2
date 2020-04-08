@@ -37,21 +37,21 @@
                 });
              var markerCluster = new MarkerClusterer(map, markers,
                  {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+    }
             
-            
-                 var showMe = (function() {
-                           marker.addListener('click', function() {
-                          function showMe(){
-                                if(i = "Roztoka") {
-                                   $("carousel-inner>child").removeClass("active").getElementById("roztoka").addClass("active");                        
-                                }else if(i = "Koscielec"){
-                                   $("carousel-inner>child").removeClass("active").getElementById("koscielec").addClass("active");                        
-                                }
+           
+    function showMe() {
+                      $("map").click(function() {
+                                    if( labels === "Roztoka" && locations ===  {lat: 49.234526, lng: 20.093493} ) {
+                                    $(".active").removeClass("active").getElementById("roztoka").addClass("active");                        
+                                    }else if(labels === "Koscielec" && locations ===   {lat: 49.241814, lng: 20.003551}){
+                                    $(".active").removeClass("active").getElementById("koscielec").addClass("active");                        
+                                    };
                       
-                      }
+                      });
                       return showMe;
-                    }());
-                    });
-               
-                }
+    }
+                                      
+                
+                
    
