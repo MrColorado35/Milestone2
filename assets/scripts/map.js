@@ -37,7 +37,21 @@
                 });
              var markerCluster = new MarkerClusterer(map, markers,
                  {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-   
-   
-   
+            
+            
+                 var showMe = (function() {
+                           marker.addListener('click', function() {
+                          function showMe(){
+                                if(i = "Roztoka") {
+                                   $("carousel-inner>child").removeClass("active").getElementById("roztoka").addClass("active");                        
+                                }else if(i = "Koscielec"){
+                                   $("carousel-inner>child").removeClass("active").getElementById("koscielec").addClass("active");                        
+                                }
+                      
+                      }
+                      return showMe;
+                    }());
+                    });
+               
                 }
+   
