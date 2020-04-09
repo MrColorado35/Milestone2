@@ -8,9 +8,9 @@ var places = {
         'lon':  20.012120,
         'lat':  49.232051,
     },
-}
+};
 
-function getWeather(lon, lat, units){
+function getWeather(places, units){
     var settings = {
         "async": true,
         "crossDomain": true,
@@ -64,11 +64,11 @@ function getWeather(lon, lat, units){
 }
 
 document.getElementsByClassName('weather-api-btn')
-onClick(function(event){
+    .click(function(event){
     handleListener(button);
 });
 
-    var button = "div>b-button"
+    var button = ".btn"
 
     function handleListener(button){
     getWeather(this.lat, this.lon, metric).innerHTML = `The weather in ${this.id} is: ${this.response}`;        
