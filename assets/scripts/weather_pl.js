@@ -16,8 +16,8 @@ function getWeather(places, units){
         "crossDomain": true,
         "url": "https://community-open-weather-map.p.rapidapi.com/weather",
         "data": {places:
-             {'lon': lon, 'lat': lat},
-              units: 'metric'},
+             { lon: 'lon', lat: 'lat'},
+              "units": "metric"},
         "method": "GET",
         "headers": {
             "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
@@ -70,8 +70,12 @@ $( "#zakopane" ).click(function() {
     });
 }
 
-document.getElementsByClassName('weather-api-btn')
-    .click(function(event){
+// document.getElementsByClassName('weather-api-btn')
+//     .click(function(event){
+//     handleListener(button);
+// });
+
+$('.weather-api-btn').click(function(event){
     handleListener(button);
 });
 
