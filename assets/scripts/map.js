@@ -1,4 +1,7 @@
-  function initMap() {
+
+
+
+    function initMap() {
                 var map = new google.maps.Map(document.getElementById('map'), {
                             zoom: 7,
                             center: { 
@@ -6,7 +9,7 @@
                                 lng: 20.008202
                             }
         });
-                var labels = ["Roztoka","Koscielec","Morskie Oko","Little Koscielec","Mnich", "Moko Down", "5 Lakes Valley", "Chata Teryho", "Nizne Pleso", "Studena Valley", "Studena-Teryho", "Studena-Bottom", "Worm lake"];
+                var labels = ["Roztoka","Koscielec","Morskie Oko","Little Koscielec","Mnich", "M-oko Down", "5 Lakes Valley", "Chata Teryho", "Nizne Pleso", "Studena Valley", "Studena-Teryho", "Studena-Bottom", "Worm lake"];
 
                 var locations = [
 
@@ -40,18 +43,8 @@
     }
             
            
-    function showMe() {
-                      $("map").click(function() {
-                                    if( labels === "Roztoka" && locations ===  {lat: 49.234526, lng: 20.093493} ) {
-                                    $(".active").removeClass("active").getElementById("roztoka").addClass("active");                        
-                                    }else if(labels === "Koscielec" && locations ===   {lat: 49.241814, lng: 20.003551}){
-                                    $(".active").removeClass("active").getElementById("koscielec").addClass("active");                        
-                                    };
-                      
-                      });
-                      return showMe;
-    }
+  
                                       
-                
+         
                 
    
