@@ -24,6 +24,11 @@ function getWeather(places, units){
             "x-rapidapi-key": "dffece06afmsheb06bed2195d2cbp197205jsn5a31dea67e6c"
         }
     }
+
+$( "#zakopane" ).click(function() {
+  alert( "Handler for .click() called Zakopane." );
+});
+
  $.ajax(settings).done(function (response) {
        
         jsonData = JSON.parse(response);
@@ -55,7 +60,7 @@ function getWeather(places, units){
             "id": 7531513,
             "name": "Zakopane",
             "cod": 200})
-            .toString()
+            
       
         
         
@@ -73,7 +78,7 @@ document.getElementsByClassName('weather-api-btn')
     var button = ".btn"
 
     function handleListener(button){
-    getWeather(this.lat, this.lon, metric).innerHTML = `The weather in ${this.id} is: ${this.response}`;        
+    getWeather(this.lat, this.lon, metric).innerHTML =(`The weather in ${this.id} is: ${this.response}`);        
 
     }
 
