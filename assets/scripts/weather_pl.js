@@ -15,7 +15,9 @@ function getWeather(places, units){
         "async": true,
         "crossDomain": true,
         "url": "https://community-open-weather-map.p.rapidapi.com/weather",
-        "data": {'lon': lon, 'lat': lat, 'units': 'metric'},
+        "data": {places:
+             {'lon': lon, 'lat': lat},
+              units: 'metric'},
         "method": "GET",
         "headers": {
             "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
@@ -74,3 +76,4 @@ document.getElementsByClassName('weather-api-btn')
     getWeather(this.lat, this.lon, metric).innerHTML = `The weather in ${this.id} is: ${this.response}`;        
 
     }
+
