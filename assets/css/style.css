@@ -83,8 +83,13 @@ footer {
     padding: 5%;
 }
 
+.no-decoration {
+    text-decoration: none;
+}
 
-
+.inherit {
+    color: inherit;
+}
 
 
 /* ------------------------------------------------- style -- */
