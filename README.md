@@ -11,6 +11,8 @@ My first idea was to locate pictures on one the left side of the page, map on th
 While creating, however, I realized it looks nicer if I'll use carousele and set the pictures on top of the page.
 
 
+I had to abadon this project in order to focus on the rest of the bootcamp, but I'm going to come back to it around November 2020.
+
 I'll keep it updated.
 
 Stay safe! 
